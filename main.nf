@@ -11,5 +11,5 @@ echo $cheers
 """
 }
 workflow{
-channel.of('jjj','Hola','ciao') | sayHello | view
+channel.of('Hello','Hola','ciao') | sayHello | view
 }
